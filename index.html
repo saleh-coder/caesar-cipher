@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Caesar Cipher</title>
+  </head>
+
+  <body>
+    <img class="image" src="assets/cifra.jpeg" />
+    <h1 class="highlight">Encrypt your message:</h1>
+    <div class="field text">
+      <label for="to-encrypt">Enter your message:</label>
+      <input type="text" class="input" id="to-encrypt" />
+    </div>
+    <div class="field selector">
+      <label for="displacement">Change the beginning of the alphabet to:</label>
+      <select id="displacement" class="input"></select>
+    </div>
+    <button id="button" class="button">Encrypt</button>
+    <p class="invisible" id="response">test</p>
+    <script src="script.js"></script>
+  </body>
+</html>
