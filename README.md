@@ -2,6 +2,15 @@
 
 This project is a simple web application for encrypting messages using the Caesar Cipher. The interface allows users to enter a message and a displacement to shift the letters in the alphabet, generating an encrypted version of the message.
 
+## Live Demo
+
+You can check out the live version of the website here: [Caesar Cipher on Vercel](https://vercel.com/amals-projects-1e5b0fc5/caesar-cipher).
+
+## 📷 Screenshot
+
+![Application Screenshot](assets/screenshoot.jpeg)
+
+
 ## 📋 Features
 
 - Text input for the message to be encrypted.
@@ -42,10 +51,6 @@ The application features a dark theme with a gradient background and custom font
 3. Open the `index.html` file in your preferred browser.
 4. Enter your message, select the desired displacement, and click **Encrypt**.
 5. View the encrypted text displayed on the screen.
-
-## 📷 Screenshot
-
-![Application Screenshot](assets/screenshoot.jpeg)
 
 ## 🛠️ Customization
 
